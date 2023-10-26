@@ -1,11 +1,12 @@
-function makeArray(firstArray, secondArray, maxlength) {
+function makeArray(firstArray, secondArray, maxLength) {
     const nextArray = [];
-    for (let i = o; i < maxlength; i++) {
+    for (let i = 0; i < maxLength; i++) {
         if (i <= firstArray.length - 1) {
           nextArray.push(firstArray[i]);
         }
-    }    
-    for (let i = 0; i <= makeArray - firstArray.length - 1; i++) {
+    } 
+    
+    for (let i = 0; i <= maxLength - firstArray.length - 1; i++) {
         nextArray.push(secondArray[i]);
     }
     return nextArray;
